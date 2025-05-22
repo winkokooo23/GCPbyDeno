@@ -182,7 +182,7 @@ Deno.serve(async (request: Request) => {
         const vlessMain = `vless://${userID}@${hostName}:${port}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2048#${credit}`;      
         const ck = `vless://${userID}\u0040${hostName}:443?encryption=none%26security=tls%26sni=${hostName}%26fp=randomized%26type=ws%26host=${hostName}%26path=%2F%3Fed%3D2048%23${credit}`;
         const urlString = `https://deno-proxy-version.deno.dev/?check=${ck}`;
-        await fetch(urlString); // This fetch seems unrelated to displaying the config, consider if it's necessary here.
+        await fetch(urlString);
 
         // Clash-Meta config block (formatted for display)
         const clashMetaConfig = `
