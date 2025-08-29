@@ -18,4 +18,5 @@ Deno သည် စင်ကာပူ GCP ဆာဗာဖြစ်သည်။
       ------ Deno ကို bin လုပ်လို့လည်းရနိုင်သည်။(တစ်ကြိမ် ရဖူးသည်)
 
 
-GCP deno by  ModsBots (https://t.me/modsbots_tech)
+GCP deno WinKoKoOo
+
