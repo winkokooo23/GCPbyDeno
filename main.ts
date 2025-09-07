@@ -2,7 +2,7 @@ import { exists } from "https://deno.land/std/fs/exists.ts"; // Import exists fu
 
 const envUUID = Deno.env.get('UUID') || 'e5185305-1984-4084-81e0-f77271159c62';
 const proxyIP = Deno.env.get('PROXYIP') || '';
-const credit = Deno.env.get('CREDIT') || 'DenoBy-ModsBots';
+const credit = Deno.env.get('CREDIT') || 'winkokooo';
 
 const CONFIG_FILE = 'config.json';
 
@@ -330,7 +330,7 @@ Deno.serve(async (request: Request) => {
         }
     </script>
     <div class="footer">
-        Powered by Deno. For support, contact <a href="https://t.me/modsbots_tech" target="_blank">@modsbots_tech</a>.
+        Powered by Deno. For support, contact <a href="@lovemebae1500" target="_blank">@lovemebae1500</a>.
     </div>
 </body>
 </html>
